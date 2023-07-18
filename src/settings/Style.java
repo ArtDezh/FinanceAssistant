@@ -23,5 +23,4 @@ final public class Style {
     public static final ImageIcon ICON_TOOLBAR_STATISTICS = new ImageIcon("images/statistics.png");
 
 
-
 }
