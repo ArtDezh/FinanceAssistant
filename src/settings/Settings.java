@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.util.Locale;
 import java.util.prefs.Preferences;
 
-public class Settings {
+final public class Settings {
     public static final File FONT_MOM_AMOUR_ONE_MEDIUM = new File("fonts/mon-amour-one-medium.ttf");
     public static final File SAVE_DIR = new File("saves/");
     public static final String SAVE_FILE_EXT = "art";
