@@ -7,7 +7,7 @@ import java.text.DateFormatSymbols;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class Format {
+final public class Format {
     public static String amount(double amount) {
         return String.format(Settings.FORMAT_AMOUNT, amount);
     }
