@@ -7,7 +7,7 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import java.util.List;
 
-@XmlRootElement(name =" data")
+@XmlRootElement(name = " data")
 public class Wrapper {
 
     private List<Article> articles;
